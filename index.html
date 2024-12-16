@@ -7,7 +7,92 @@
     <title>Сборка мебели и установка кухонь - Бобруйск</title>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* ... ваш CSS здесь ... */
+        body {
+            font-family: 'Exo 2', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #121212, #2b2b2b);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(45deg, #000, #434343);
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: #ff416c;
+            text-shadow: 0 0 10px #ff416c;
+            animation: neon 1.5s ease-in-out infinite alternate;
+        }
+        @keyframes neon {
+            from {
+                text-shadow: 0 0 10px #ff416c, 0 0 20px #ff416c, 0 0 30px #ff416c;
+            }
+            to {
+                text-shadow: 0 0 20px #ff416c, 0 0 30px #ff416c, 0 0 40px #ff416c;
+            }
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px); /* Эффект размытия фона */
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            font-size: 2rem;
+            color: #00d2ff;
+            margin-bottom: 20px;
+            text-shadow: 0 0 5px #00d2ff;
+        }
+        p, li {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #e0e0e0;
+        }
+        .contact-info {
+            background: rgba(31, 31, 31, 0.8);
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .contact-info h3 {
+            font-size: 1.5rem;
+            margin: 0;
+            color: #ff416c;
+        }
+        .contact-info p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #fff;
+        }
+        .contact-info a {
+            color: #00d2ff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact-info a:hover {
+            color: #ff416c;
+        }
+        footer {
+            background: #000;
+            color: #888;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -30,9 +115,6 @@
     
     <h2>Почему выбирают нас?</h2>
     <p>Мы ценим ваше время и качество. Каждый проект выполняется в срок, с вниманием к каждой детали. Мы используем только проверенные материалы и современные инструменты для обеспечения надежности и долговечности всех работ.</p>
-
-    <!-- Добавленная ссылка на страницу каталога -->
-    <p><a href="catalog.html" style="color: #00d2ff; text-decoration: none; transition: color 0.3s ease;">Посмотреть наши работы</a></p>
 </section>
 
 <section class="contact-info">
